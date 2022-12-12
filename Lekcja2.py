@@ -5,3 +5,7 @@ print(full_name)
 print(len(full_name))
 print(first_name[2])
 print(last_name[-1])
+print(first_name[0:6])
+word = "zing"
+word = "ba" + word[:4] + "a"
+print(word)
