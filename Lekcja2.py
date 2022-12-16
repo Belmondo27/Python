@@ -49,3 +49,4 @@ print(string4.startswith("Be"))
 print(string5.startswith("be"))
 print(string6.startswith("BE"))
 print(string7.startswith("   "))
+####
