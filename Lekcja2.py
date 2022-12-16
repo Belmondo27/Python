@@ -50,3 +50,10 @@ print(string5.startswith("be"))
 print(string6.startswith("BE"))
 print(string7.startswith("   "))
 ####
+prompt="Hey, what's up?! "
+user_input = input(prompt)
+print("You say: " + user_input)
+
+disp=input()
+print(disp.lower())
+print(len(disp))
