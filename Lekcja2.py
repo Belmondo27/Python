@@ -51,9 +51,25 @@ print(string6.startswith("BE"))
 print(string7.startswith("   "))
 ####
 prompt="Hey, what's up?! "
-user_input = input(prompt)
-print("You say: " + user_input)
+#user_input = input(prompt)
+#print("You say: " + user_input)
 
-disp=input()
-print(disp.lower())
-print(len(disp))
+#disp=input()
+#print(disp.lower())
+#print(len(disp))
+##################################################
+weight = 0.2
+animal = "newt"
+print(str(weight) + " kg is the wieght of the " + str(animal))
+print("{} kg is the wieght of the {}".format(weight, animal))
+print(f"{weight} kg is the wieght of the {animal}")
+
+print("AAA".find("a"))
+print("Somebody said something to Samantha".replace("s","x"))
+
+#text2=input()
+#print(text2.find("e"))
+
+user_input = input()
+print("Enter some text: " + user_input)
+print(user_input.replace("a","4").replace("b","8").replace("e","3").replace("l","1").replace("o","0").replace("s","5").replace("t","7"))
