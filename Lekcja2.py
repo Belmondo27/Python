@@ -70,6 +70,18 @@ print("Somebody said something to Samantha".replace("s","x"))
 #text2=input()
 #print(text2.find("e"))
 
-user_input = input()
-print("Enter some text: " + user_input)
-print(user_input.replace("a","4").replace("b","8").replace("e","3").replace("l","1").replace("o","0").replace("s","5").replace("t","7"))
+#user_input = input()
+#print("Enter some text: " + user_input)
+#print(user_input.replace("a","4").replace("b","8").replace("e","3").replace("l","1").replace("o","0").replace("s","5").replace("t","7"))
+
+########################### 
+
+#num = float(input("Enter a number: "))
+#print((num), " rounded to 2 decimal places is ", + round((num),2) )
+
+#num2 = int(input("Enter a number: "))
+#print((num2), " The absolute value is ", + abs((num2)))
+
+num1 = float(input("Enter a number: "))
+num2 = float(input("Enter another number: "))
+print(" The difference between ", num1, " and ", num2, "is an integer?", num2.is_integer())
