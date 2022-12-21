@@ -70,7 +70,6 @@ print("Somebody said something to Samantha".replace("s","x"))
 #text2=input()
 #print(text2.find("e"))
 
-<<<<<<< HEAD
 #user_input = input()
 #print("Enter some text: " + user_input)
 #print(user_input.replace("a","4").replace("b","8").replace("e","3").replace("l","1").replace("o","0").replace("s","5").replace("t","7"))
@@ -83,11 +82,16 @@ print("Somebody said something to Samantha".replace("s","x"))
 #num2 = int(input("Enter a number: "))
 #print((num2), " The absolute value is ", + abs((num2)))
 
-num1 = float(input("Enter a number: "))
-num2 = float(input("Enter another number: "))
-print(" The difference between ", num1, " and ", num2, "is an integer?", num2.is_integer())
-=======
-user_input = input()
-print("Enter some text: " + user_input)
-print(user_input.replace("a","4").replace("b","8").replace("e","3").replace("l","1").replace("o","0").replace("s","5").replace("t","7"))
->>>>>>> 21ccafed2a1d9fec531f9c2f64dcc0d0a585e0b7
+#num1 = float(input("Enter a number: "))
+#num2 = float(input("Enter another number: "))
+#print(" The difference between ", num1, " and ", num2, "is an integer?", num2.is_integer())
+#user_input = input()
+#print("Enter some text: " + user_input)
+#print(user_input.replace("a","4").replace("b","8").replace("e","3").replace("l","1").replace("o","0").replace("s","5").replace("t","7"))
+
+n = 3 ** 125
+print(f"The value of n is {n:.3f}")
+n2 = 150000
+print(f"The value of n is {n2:,.2f}")
+n3 = 2 / 10
+print(f"The value of n is {n3:.0%}")
