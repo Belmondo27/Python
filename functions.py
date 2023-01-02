@@ -30,3 +30,20 @@ def greet(a):
 
 secondexc = greet("Damian")
 print(secondexc)
+
+def convert_cel_to_far(c):
+    return c * (9/5) + 32
+
+def convert_far_to_cel(f):
+    return (f - 32) * 5 / 9
+
+
+
+num = float(input("Enter a temperature in degrees C: "))
+far = convert_cel_to_far(num)
+print(num, "degrees C = ", round((far),4) , "degrees F"  )
+
+
+num = float(input("Enter a temperature in degrees F: "))
+far = convert_far_to_cel(num)
+print(num, "degrees F = ", round((far),2) , "degrees C"  )
