@@ -7,3 +7,11 @@ while i <= 100:
 else:
     print("Koniec pętli while.")
     print("Suma wartości: " + str(sum))    
+
+for n in range(2, 10):
+    print(n)
+
+j =  1
+while j <= 9:
+    j += 1
+    print(j)
