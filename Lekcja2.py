@@ -49,3 +49,49 @@ print(string4.startswith("Be"))
 print(string5.startswith("be"))
 print(string6.startswith("BE"))
 print(string7.startswith("   "))
+####
+prompt="Hey, what's up?! "
+#user_input = input(prompt)
+#print("You say: " + user_input)
+
+#disp=input()
+#print(disp.lower())
+#print(len(disp))
+##################################################
+weight = 0.2
+animal = "newt"
+print(str(weight) + " kg is the wieght of the " + str(animal))
+print("{} kg is the wieght of the {}".format(weight, animal))
+print(f"{weight} kg is the wieght of the {animal}")
+
+print("AAA".find("a"))
+print("Somebody said something to Samantha".replace("s","x"))
+
+#text2=input()
+#print(text2.find("e"))
+
+#user_input = input()
+#print("Enter some text: " + user_input)
+#print(user_input.replace("a","4").replace("b","8").replace("e","3").replace("l","1").replace("o","0").replace("s","5").replace("t","7"))
+
+########################### 
+
+#num = float(input("Enter a number: "))
+#print((num), " rounded to 2 decimal places is ", + round((num),2) )
+
+#num2 = int(input("Enter a number: "))
+#print((num2), " The absolute value is ", + abs((num2)))
+
+#num1 = float(input("Enter a number: "))
+#num2 = float(input("Enter another number: "))
+#print(" The difference between ", num1, " and ", num2, "is an integer?", num2.is_integer())
+#user_input = input()
+#print("Enter some text: " + user_input)
+#print(user_input.replace("a","4").replace("b","8").replace("e","3").replace("l","1").replace("o","0").replace("s","5").replace("t","7"))
+
+n = 3 ** 125
+print(f"The value of n is {n:.3f}")
+n2 = 150000
+print(f"The value of n is {n2:,.2f}")
+n3 = 2 / 10
+print(f"The value of n is {n3:.0%}")
